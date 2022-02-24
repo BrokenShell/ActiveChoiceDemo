@@ -3,7 +3,7 @@ from game import run_game
 
 
 player_1 = ActiveChoice("Player 1", ("lizard", "scissors", "rock", "paper", "spock"))
-player_2 = ActiveChoice("Player 2", ("rock",))
+player_2 = ActiveChoice("Player 2", ("lizard", "scissors", "rock"))
 
 
 print("\n# Pre Game")
